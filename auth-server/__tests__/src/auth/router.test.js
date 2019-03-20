@@ -1,7 +1,7 @@
 'use strict';
 
 process.env.STORAGE = 'mongo';
-
+process.env.SECRET = 'mysecret';
 const jwt = require('jsonwebtoken');
 
 const server = require('../../../src/app.js').server;
